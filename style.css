@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+.all{
+    border: none;
+    position: relative;
+}
+.nav-bar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.107);
+    height: 10vh;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    color: #ffffff;
+}
+.text-logo{
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+.text-logo a{
+    color: white;
+    padding-left: 5px;
+}
+.text-logo span{
+    color: orangered;
+}
+.nav-a{
+    gap: 40px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.nav-a a{
+    color: white;
+}
+.sign-in{
+    background-color: orangered;
+    padding: 10px;
+}
+.vid{
+    width: 100%;
+    filter: brightness(0.5);
+}
+.center-of-attention{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    height: 90vh;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.center-h5{
+    font-size: 15px;
+    font-weight: 900;
+}
+.center-h2{
+    font-size: 80px;
+    font-weight: 800;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+.center-g{
+    color: orangered;
+}
+.btn-member{
+    background-color: orangered;
+    color: white;
+    padding: 12px;
+}
+.container-text{
+    text-align: center;
+    color: rgba(37, 44, 52, 0.584);
+    padding: 20px;
+}
+.container-text img{
+    padding: 15px;
+}
+.container-text h2{
+    font-size: 31px;
+    font-weight: 800;
+    color: #000000;
+}
+.container-text span{
+    color: orangered;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.rigth-side{
+    padding: 3px;
+}
+.rigth-side h4{
+    font-size: 21px;
+}
+.rigth-side p{
+    padding: 9px;
+}
+.rigth-side a{
+    color: orangered;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.banner{
+    background-image: url(assets/cta-bg.jpg);
+    height: 60vh;
+    margin: 20px 0;
+}
+.banner-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    color: white;
+    padding: 20px;
+    height: 60vh;
+}
+.banner-text h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.banner-text span{
+    color: orangered;
+}
+.btn-member2{
+    background-color: orangered;
+    color: white;
+    padding: 12px;
+    text-transform: uppercase;
+}
+
+.main-2{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.left-part{
+    padding: 15px;
+}
+.button{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    color: orangered;
+    width: 100%;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.view{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 800;
+    width: 100%;
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+}
+.right-part{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.display h3{
+    padding: 15px 0;
+    font-size: 25px;
+    font-weight: 775;
+    color: rgb(43, 56, 66);
+}
+.display p{
+    padding: 15px 0;
+}
+.display button{
+    padding: 10px;
+    color: white;
+    background-color: orangered;
+    border: none;
+}
+.third-section{
+    background-image: url(assets/schedule-bg.jpg);
+}
+.nav-schedule{
+    padding: 20px;
+}
+.nav-schedule ul{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+}
+.nav-schedule a{
+    /* color: white; */
+    padding: 0;
+}
+
+.slash{
+    color: #fff;
+}
+.tuesday, .wednesday, .thursday, .friday, .monday{
+    color: #fff;
+}
+.nav-schedule a:hover{
+    color: orangered;
+}
+.nav-schedule a:active{
+    color: orangered;
+}
+.nav-schedule span{
+    padding: 5px;
+}
+td{
+    height: 10hv;
+    border: solid 1px white;
+    padding: 7vh;
+    color: #fff;
+}
+table{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 20px 0;
+}
+.third-section .container-text{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.733);
+    padding: 20px;
+}
+.third-section .container-text h2{
+    font-size: 31px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.teams{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+.team-1, .team-2, .team-3{
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    /* display: flex;
+    justify-content: center; */
+}
+.content-team{
+    padding: 2rem;
+    color: #2a303496;
+    width: 100%;
+}
+.tag{
+    color: orangered;
+    font-size: 15px;
+    padding: 20px 0 5px 0;
+}
+.content-team h4{
+    padding: 5px 0 10px 0;
+    font-size: 17px;
+    color: #272f34d4;
+}
+.icon{
+    padding: 20px 0 0 0;
+    display: flex;
+    gap: 20px;
+    color: #2a3034;
+}
+.fifth-section{
+    display: flex;
+    margin-top: 20px;
+}
+.map{
+    width: 100%;
+}
+.contact-area{
+    background-image: url(assets/contact-bg.jpg);
+    padding: 15px;
+    width: 97%;
+}
+.contact-form{
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.your-name{
+    border-radius: 5px;
+    border: 0.6px solid #ccc;
+    width: 200px;
+    margin-right: 10px;
+    padding: 10px;
+}
+.your-email{
+    border-radius: 5px;
+    border: 0.6px solid #ccc;
+    width: 200px;
+    margin-left: 10px;
+    padding: 10px;
+}
+.your-sub{
+    border-radius: 5px;
+    border: 0.6px solid #ccc;
+    width: 90%;
+    margin: 20px 0;
+    padding: 10px;
+}
+textarea{
+    width: 90%;
+    height: 150px;
+    padding: 10px;
+    border: 0.6px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+
+}
+.send{
+    width: 25%;
+    padding: 10px;
+    color: #ffffff;
+    background-color: orangered;
+    border: none;
+    margin: 10px 0;
+}
+.last-bit{
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+.last-bit span{
+    color: orangered;
+}
+.imagine{
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    box-shadow: 2px 2px 7px 2px rgba(58, 58, 58, 0.548);
+    color: black;
+    z-index: 1000;
+    }
+.imagine .text-logo a{
+    color: #000000;
+}
+.imagine .nav-a a{
+    color: #000000;
+}
