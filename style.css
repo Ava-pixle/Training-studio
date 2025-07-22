@@ -49,6 +49,11 @@
     width: 100%;
     filter: brightness(0.5);
 }
+video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
 .center-of-attention{
     position: absolute;
     top: 0;
@@ -375,4 +380,41 @@ textarea{
 }
 .imagine .nav-a a{
     color: #000000;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .nav-bar{
+        display: none;
+    }
+    .center-of-attention{
+        display: block;
+    }
+    .main{
+        display: block;
+    }
+    .main-2{
+        display: block;
+    }
+    .teams{
+        display: block;
+    }
+    .fifth-section{
+        display: block;
+    }
+    td{
+        padding: 2vh;
+    }
+    .display{
+        width: 100%;
+    }
+    .display img {
+        width: 100%;
+    }
 }
